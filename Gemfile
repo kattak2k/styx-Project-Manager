@@ -46,10 +46,13 @@ group :development do
 end
 
 # Ins Start RK01
+  # for bootstrap
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
-
+  # for Logo
 gem "font-awesome-rails"
-
+  # for form input
 gem 'simple_form'
+  # for user login authentication
+gem 'devise'
 # Ins End RK01
 
