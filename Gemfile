@@ -45,7 +45,11 @@ group :development do
   gem 'spring'
 end
 
+# Ins Start RK01
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
 gem "font-awesome-rails"
+
+gem 'simple_form'
+# Ins End RK01
 
