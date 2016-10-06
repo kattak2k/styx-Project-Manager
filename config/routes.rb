@@ -1,5 +1,12 @@
 Rails.application.routes.draw do
-  resources :tasks
+  
+  # create PUT in REST :"  change_task PUT    /tasks/:id/change(.:format)    tasks#change"
+  resources :tasks do
+    member do
+      put :change
+    end
+  end  
+  
   devise_for :users
   #get 'pages/home'
 
