@@ -54,5 +54,8 @@ gem "font-awesome-rails"
 gem 'simple_form'
   # for user login authentication
 gem 'devise'
+
+#go over to the youtubes and copy over the url of any video you like and paste it inside a new To do item.
+gem 'auto_html', '~> 1.6'
 # Ins End RK01
 
