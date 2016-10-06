@@ -37,7 +37,8 @@
   </thead>
 
   <tbody>
-    <%= render @to_do %>
+    <!-- // calls the partial in views/tasks/_task.html.erb -->
+    <%= render @to_do %> 
   </tbody>
 </table>
   
@@ -54,6 +55,7 @@
   </thead>
 
   <tbody>
+    <!-- // calls the partial in views/tasks/_task.html.erb -->
     <%= render @doing %> 
   </tbody>
 </table>
@@ -71,9 +73,8 @@
   </thead>
 
   <tbody>
-  
+  <!-- // calls the partial in views/tasks/_task.html.erb -->
   <%= render @done %> 
-  
   </tbody>
 </table>
 
